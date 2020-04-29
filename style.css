@@ -1,0 +1,128 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #000f;
+}
+.Induk > a
+{
+	text-align: center;
+	text-decoration: none;
+}
+a.button1
+{
+	padding-top: 15px;
+	text-align: center;
+	text-decoration-line: none;
+	font-size: 12px;
+	color: #eaad9c;
+	font-family: courier;
+	position: absolute;
+	left: 553px;
+	top: 300px;
+	width: 180px;
+	height: 26px;
+	background: linear-gradient(0deg,#262626,#000);
+}
+a.button1:before
+	{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	background: linear-gradient(45deg,#f6acc8,#eaad9c,#e58a8a,#ff926b,#d8345f,#c70039,#f6acc8,#eaad9c,#e58a8a,#ff926b,#d8345f,#c70039);
+	background-size: 300%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: animate 20s linear infinite;
+}
+a.button2
+{
+	padding-top: 15px;
+	text-align: center;
+	text-decoration-line: none;
+	font-size: 12px;
+	color: #eaad9c;
+	font-family: courier;
+	position: absolute;
+	left: 553px;
+	top: 360px;
+	width: 180px;
+	height: 26px;
+	background: linear-gradient(0deg,#262626,#000);
+}
+a.button2:before
+{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	background: linear-gradient(45deg,#f6acc8,#eaad9c,#e58a8a,#ff926b,#d8345f,#c70039,#f6acc8,#eaad9c,#e58a8a,#ff926b,#d8345f,#c70039);
+	background-size: 300%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: animate 10s linear infinite;
+}
+a.button3
+{
+	padding-top: 15px;
+	text-align: center;
+	text-decoration-line: none;
+	font-size: 12px;
+	color: #eaad9c;
+	font-family: courier;
+	position: absolute;
+	left: 553px;
+	top: 420px;
+	width: 180px;
+	height: 26px;
+	background: linear-gradient(0deg,#262626,#000);
+}
+a.button3:before
+{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	background: linear-gradient(45deg,#f6acc8,#eaad9c,#e58a8a,#ff926b,#d8345f,#c70039,#f6acc8,#eaad9c,#e58a8a,#ff926b,#d8345f,#c70039);
+	background-size: 300%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: animate 5s linear infinite;
+}
+b.satu
+{
+	position: absolute;
+	margin-top: 180px;
+	margin-left: 516px;
+	color: #eaad9c;
+	font-size: 15px;
+	font-family: Courier New;
+
+}
+b.dua
+{
+	position: absolute;
+	margin-top: 600px;
+	margin-left: 9px;
+	color: #eaad9c;
+	font-size: 10px;
+	font-family: Courier New;
+}
+@keyframes animate
+{
+	0%
+	{
+		background-position: 0 0;
+	}
+	50%
+	{
+		background-position: 300% 0;
+	}
+	100%
+	{
+		background-position: 0 0;
+	}
